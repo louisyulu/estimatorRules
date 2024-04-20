@@ -2,11 +2,11 @@ package com.example.estimatorRules.dto;
 
 public class Echo {
     String echoTime;
-    String echMessage;
+    String echoMessage;
 
-    public Echo(String echoTime, String echMessage) {
+    public Echo(String echoTime, String echoMessage) {
         this.echoTime = echoTime;
-        this.echMessage = echMessage;
+        this.echoMessage = echoMessage;
     }
 
     public String getEchoTime() {
@@ -17,11 +17,11 @@ public class Echo {
         this.echoTime = echoTime;
     }
 
-    public String getEchMessage() {
-        return echMessage;
+    public String getEchoMessage() {
+        return echoMessage;
     }
 
-    public void setEchMessage(String echMessage) {
-        this.echMessage = echMessage;
+    public void setEchoMessage(String echoMessage) {
+        this.echoMessage = echoMessage;
     }
 }
