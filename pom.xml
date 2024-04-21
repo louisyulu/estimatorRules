@@ -48,7 +48,7 @@
 					<schemaVersion>v2</schemaVersion>
 					<resourceGroup>louis-test-1</resourceGroup>
 					<appName>louis-poc-rules-java</appName>
-					<pricingTier>B1</pricingTier>
+					<pricingTier>F1</pricingTier>
 					<region>canadaeast</region>
 					<runtime>
 						<os>Linux</os>
