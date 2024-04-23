@@ -1,7 +1,5 @@
 package com.example.estimatorRules.dto;
 
-import java.util.Objects;
-
 public class Person {
     private String name;
     private int age;
@@ -21,18 +19,19 @@ public class Person {
         this.name = name;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (o == null || getClass() != o.getClass())
-            return false;
-        Person person = (Person) o;
-        return age == person.age && adult == person.adult && Objects.equals(name, person.name);
+    public int getAge() {
+        return age;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, age, adult);
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public boolean isAdult() {
+        return adult;
+    }
+
+    public void setAdult(boolean adult) {
+        this.adult = adult;
     }
 }
