@@ -1,9 +1,0 @@
-import com.example.estimatorRules.model.Person;
-dialect "mvel"
-
-rule "Is adult"
-when
-    $p : Person(age >= 18)
-then
-    $p.setAdult(true);
-end
