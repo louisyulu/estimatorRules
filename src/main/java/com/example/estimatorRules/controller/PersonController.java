@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.estimatorRules.dto.Person;
+import com.example.estimatorRules.model.Person;
 import com.example.estimatorRules.service.PersonService;
 
 @RestController

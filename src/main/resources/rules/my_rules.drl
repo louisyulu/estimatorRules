@@ -1,4 +1,4 @@
-import com.example.estimatorRules.dto.Person;
+import com.example.estimatorRules.model.Person;
 dialect "mvel"
 
 rule "Is adult"

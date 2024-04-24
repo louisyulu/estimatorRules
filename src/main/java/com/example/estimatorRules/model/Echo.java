@@ -1,4 +1,4 @@
-package com.example.estimatorRules.dto;
+package com.example.estimatorRules.model;
 
 public class Echo {
     String echoTime;

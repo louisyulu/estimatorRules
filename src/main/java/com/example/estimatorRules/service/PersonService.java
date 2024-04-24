@@ -4,7 +4,7 @@ import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 import org.springframework.stereotype.Service;
 
-import com.example.estimatorRules.dto.Person;
+import com.example.estimatorRules.model.Person;
 
 @Service
 public class PersonService {
